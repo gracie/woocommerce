@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0a0153dda851ca2c8e79bed1813ba5f",
+    "content-hash": "0408438900c6cc96a4ca1da6c76dad9e",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -51,23 +51,26 @@
         },
         {
             "name": "automattic/jetpack-constants",
-            "version": "v1.5.1",
+            "version": "v1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-constants.git",
-                "reference": "18f772daddc8be5df76c9f4a92e017a3c2569a5b"
+                "reference": "84c8f09c5a6467104094243912fdcfe8eaed945b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/18f772daddc8be5df76c9f4a92e017a3c2569a5b",
-                "reference": "18f772daddc8be5df76c9f4a92e017a3c2569a5b",
+                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/84c8f09c5a6467104094243912fdcfe8eaed945b",
+                "reference": "84c8f09c5a6467104094243912fdcfe8eaed945b",
                 "shasum": ""
             },
             "require-dev": {
-                "php-mock/php-mock": "^2.1",
-                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5"
+                "brain/monkey": "2.6.0",
+                "yoast/phpunit-polyfills": "0.2.0"
             },
             "type": "library",
+            "extra": {
+                "mirror-repo": "Automattic/jetpack-constants"
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -79,9 +82,9 @@
             ],
             "description": "A wrapper for defining constants in a more testable way.",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-constants/tree/v1.5.1"
+                "source": "https://github.com/Automattic/jetpack-constants/tree/v1.6.2"
             },
-            "time": "2020-10-28T19:00:31+00:00"
+            "time": "2021-02-05T19:07:24+00:00"
         },
         {
             "name": "composer/installers",
