@@ -51,7 +51,9 @@ class WC_Settings_Emails extends WC_Settings_Page {
 			array(
 				array(
 					'title' => __( 'Email notifications', 'woocommerce' ),
-					'desc'  => __( 'Email notifications sent from WooCommerce are listed below. Click on an email to configure it.', 'woocommerce' ),
+					'desc'  => __( 'Email notifications sent from WooCommerce are listed below. Click on an email to configure it.
+					
+					To ensure your store’s notifications arrive in your and your customers’ inboxes, we recommend having an email address that’s connected to your domain and a dedicated SMTP server. If something doesn’t seem to be sending correctly, install the WP Mail Logging Plugin and <a href="?https://docs.woocommerce.com/document/email-faq/">see troubleshooting steps here.</a>', 'woocommerce' ),
 					'type'  => 'title',
 					'id'    => 'email_notification_settings',
 				),
